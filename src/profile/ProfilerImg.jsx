@@ -28,7 +28,11 @@ function ProfilerImg() {
             <hr className="mt-5"></hr>
             {/* <TopStudent/> */}
             {/* <Temper/> */}
+           
             <Checker/>
+            {/* <p className="flex  mt-32 justify-center">Craft</p> */}
+           <div>
+           </div>
         </div>
      );
 }
