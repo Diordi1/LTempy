@@ -1,19 +1,19 @@
 function CourseTable() {
     return (  
-        <div className="w-[48%]">
+        <div className="sm:w-[48%] w-[100%]">
         <div><p className="font-semibold text-xl mb-4">Weekly Sale Stats</p></div>
         <div class="relative overflow-x-auto  sm:rounded-lg w-fit">
-            <table class="w-[48%] text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+            <table class="sm:w-[48%] w-[100%] text-xs sm:text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                 <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                     <tr>
-                        <th scope="col" class="px-6 py-3 text-gray-400 font-semibold">
+                        <th scope="col" class="px-4 sm:px-6 py-3 text-gray-400 font-semibold ">
                            
                             Course
                         </th>
-                        <th scope="col" class="px-6 py-3 text-gray-400 font-semibold">
+                        <th scope="col" class="px-4 sm:px-6 py-3 text-gray-400 font-semibold">
                             Sale
                         </th>
-                        <th scope="col" class="px-6 py-3 text-gray-400 font-semibold">
+                        <th scope="col" class="px-4 sm:px-6 py-3 text-gray-400 font-semibold">
                             Earnings
                         </th>
                         
@@ -22,7 +22,7 @@ function CourseTable() {
                 <tbody>
                     <tr class="bg-white  dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
                         <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                        <div className="flex gap-4">
+                        <div className="flex sm:gap-4 gap-2">
                                 <div className="pic p-3 rounded bg-stone-700 text-white h-12 text-xl font-bold w-12 text-center">P</div>
                                 <div className="content flex flex-wrap leading-4"> Apple MacBook Pro</div>
                             </div>

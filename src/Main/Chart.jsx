@@ -11,7 +11,7 @@ function Chart() {
     <>
     
     <div className='mt-14 mb-4'><h1 className='font-bold text-xl text-start ms-20'>Course Overview</h1></div>
-    <div className='h-[40%] w-[100%] p-3 mx-4'>
+    <div className='sm:h-[40%] sm:w-[100%] w-full h-[30%] sm:p-3 sm:mx-4'>
 
     <ResponsiveContainer width="95%" height="80%">  
    <BarChart width={30} height={50} data={data}>

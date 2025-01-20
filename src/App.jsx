@@ -7,16 +7,30 @@ import SideBar from './SideBar'
 import MainBar from './Main/MainBar'
 import RightSideBar from './RightSideBar'
 import Heaser from './Heaser'
+import SideMainContent from './SideMainContent'
+import SideMainDest from './SideMainDes'
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <div className=' sm:hidden'>
+
       <Heaser/>
-    <div className='flex  mx-auto'>
-      <SideBar/>
+    </div>
+    <div className='flex  mx-auto '>
+      {/* < className='hidden sm:block'> */}
+
+      
+    
+
+      <SideMainDest/>
+    
+
+      
+      
       <MainBar/>
-      <RightSideBar/>
+      {/* <RightSideBar/> */}
       
     </div>
     </>

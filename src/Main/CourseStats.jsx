@@ -57,12 +57,12 @@ function CourseStats() {
     
       };
     return ( 
-        <div className='flex flex-col w-[48%] items-start'>
+        <div className='flex flex-col  sm:w-[48%]  items-start mx-auto  sm:px-6 lg:px-8 max-w-7xl w-[100%] '>
         <div>
 
         <p className='font-semibold text-xl flex flex-start'>Course Stats</p>
         </div>
-        <div className='h-72 w-full shadow rounded-xl'>
+        <div className='h-72 w-full sm:shadow shadow-sm rounded-xl'>
 
         <ResponsiveContainer width="100%" height="100%">
         <RadialBarChart cx="50%" cy="50%" innerRadius="10%" outerRadius="80%" barSize={10} data={data}>

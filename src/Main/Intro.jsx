@@ -1,9 +1,11 @@
 function Intro() {
     return ( 
-        <div className="flex justify-between items-center mx-10">
+        <div className="flex justify-center">
+
+        <div className="flex  sm:flex-row flex-col justify-center sm:justify-between items-center  gap-3 mt-3 sm:gap-0 sm:mt-0  sm:px-6 lg:px-8 max-w-7xl w-fit">
             <div className="name">
-                <p className="text-xl">Hello, <span className="font-bold">Ralph</span></p>
-                <p>Let’s learn something new today!</p>
+                <p className="sm:text-xl text-xl">Hello, <span className="font-bold">Ralph</span></p>
+                <p className="text-lg">Let’s learn something new today!</p>
             </div>
             <div className="search flex  gap-4">
                     {/* searhc */}
@@ -34,6 +36,7 @@ function Intro() {
 </div>
 
             </div>
+        </div>
         </div>
      );
 }

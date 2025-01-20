@@ -1,14 +1,8 @@
-import React,{useEffect, useState} from 'react';
+import SideMainContent from "./SideMainContent";
 
-function SideMainContent(props) {
-
-    let [check, setCheck] = useState(true);
-    useEffect(()=>{
-        setCheck(props.check1);
-    })
-    return (  
-        <>
-        <div className="side-nav  w-[100%] sm:w-[20%]  bg-sky-100  "  >
+function SideMainDest() {
+    return (  <>
+        <div className="side-nav  w-[100%] sm:w-[20%]  bg-sky-100 hidden sm:block "  >
     
         
     <div className="md:flex flex-col items-center " >
@@ -72,8 +66,7 @@ function SideMainContent(props) {
     </div>
 </div>
 
-        </>
-    );
+        </>);
 }
 
-export default SideMainContent;
+export default SideMainDest;

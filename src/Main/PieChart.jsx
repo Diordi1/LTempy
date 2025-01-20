@@ -57,10 +57,10 @@ function PieChart() {
         <>
       
         <div className="pie"></div>
-      <div className='w-[50%] h-[50%]'>
+      <div className='w-full h-[40%] sm:w-[50%] sm:h-[50%]'>
 
-        <ResponsiveContainer width="50%" height="50%">
-        <RadialBarChart cx="50%" cy="50%" innerRadius="10%" outerRadius="80%" barSize={10} data={data}>
+        <ResponsiveContainer width="100%" height="50%">
+        <RadialBarChart cx="70%" cy="70%" innerRadius="10%" outerRadius="80%" barSize={10} data={data}>
             <Tooltip/>  
           <RadialBar
             minAngle={15}
