@@ -2,13 +2,14 @@ function Intro() {
     return ( 
         <div className="flex justify-center">
 
-        <div className="flex  sm:flex-row flex-col justify-center sm:justify-between items-center  gap-3 mt-3 sm:gap-0 sm:mt-0  sm:px-6 lg:px-8 max-w-7xl w-fit">
+        <div className="flex  sm:flex-row flex-col justify-center sm:justify-between items-center  gap-3 mt-3 sm:gap-0 sm:mt-0  sm:px-6 lg:px-8 max-w-7xl w-[100%]">
             <div className="name">
                 <p className="sm:text-xl text-xl">Hello, <span className="font-bold">Ralph</span></p>
                 <p className="text-lg">Let’s learn something new today!</p>
             </div>
-            <div className="search flex  gap-4">
+            <div className="search ">
                     {/* searhc */}
+<div className="flex ">
 
 <form class="max-w-md ">   
     <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
@@ -18,12 +19,12 @@ function Intro() {
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
             </svg>
         </div>
-        <input type="search" id="default-search" class="block w-fit p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search anything here" required />
+        <input type="search" id="default-search" class="block w-[100%] p-4 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Search anything here" required />
         {/* <button type="submit" class="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button> */}
     </div>
 </form>
 {/* ring */}
-<div className="ring1">
+<div className="ring1 ms-3">
 
 <button type="button" class="relative inline-flex items-center p-3 text-sm font-medium text-center border  rounded-lg hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
 <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
@@ -33,6 +34,7 @@ function Intro() {
 <span class="sr-only">Notifications</span>
   <div class="absolute inline-flex items-center justify-center w-6 h-6 text-xs font-bold text-white bg-red-500 border-2 border-white rounded-full -top-2 -end-2 dark:border-gray-900">20</div>
 </button>
+</div>
 </div>
 
             </div>
